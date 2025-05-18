@@ -1,0 +1,337 @@
+body {
+    background-color: #f8fafc;
+    font-family: "メイリオ", "Meiryo", "Hiragino Kaku Gothic ProN",
+        "ヒラギノ角ゴ ProN W3", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.11px;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.13px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.04px;
+}
+
+big {
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.08px;
+}
+
+caption {
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.08px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #191919;
+}
+
+.samuraimart-login-input {
+    border-radius: 2px;
+    border: solid 1px #b2b2b2;
+    background-color: #fff;
+}
+
+.samuraimart-check-label {
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+}
+
+.samuraimart-require-input-label {
+    border-radius: 1px;
+    background-color: #e2001b;
+}
+
+.samuraimart-require-input-label-text {
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+}
+
+.samuraimart-submit-button {
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+    background-color: #0fbe9f;
+}
+
+.samuraimart-login-text {
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #0fbe9f;
+}
+
+.samuraimart-header-container {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.samuraimart-header-search-input {
+    border: solid 1px #e5e5e5;
+}
+
+.samuraimart-header-search-button {
+    background-color: #0fbe9f;
+}
+
+.samuraimart-header-search-icon {
+    color: #fff;
+}
+
+.samuraimart-header-fav-icon {
+    color: #191919;
+}
+
+.samuraimart-header-shoppingcart-icon {
+    color: #fff;
+}
+
+.samuraimart-favorite-button {
+    border-radius: 2px;
+    border: solid 1px #0fbe9f;
+    background-color: #fff;
+}
+
+.text-favorite {
+    color: #0fbe9f;
+}
+
+.samuraimart-sidebar-category-label {
+    width: 156px;
+    height: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #191919;
+}
+
+.samuraimart-favorite-add-cart {
+    border-radius: 2px;
+    color: #fff;
+    background-color: #0fbe9f;
+}
+
+.review-score-color {
+    color: #0fbe9f;
+}
+
+.review-score-color:focus {
+    color: #0fbe9f;
+}
+
+.samuraimart-delete-submit-button {
+    border-radius: 2px;
+    color: #fff;
+    background-color: #d94b0e;
+}
+
+th,
+td {
+    background-color: #f8fafc !important;
+}
+
+.star-rating {
+    display: inline-block;
+    position: relative;
+}
+
+.star-rating[data-rate="5"]::before {
+    content: "★★★★★";
+    color: #0fbe9f;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.star-rating[data-rate="4.5"]::before {
+    content: "★★★★★";
+    color: #0fbe9f;
+    width: 90%;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+}
+
+.star-rating[data-rate="4.5"]::after {
+    content: "★★★★★";
+    color: #b2b2b2;
+    width: 10%;
+}
+
+.star-rating[data-rate="4"]::before {
+    content: "★★★★★";
+    color: #0fbe9f;
+    width: 80%;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+}
+
+.star-rating[data-rate="4"]::after {
+    content: "★★★★★";
+    color: #b2b2b2;
+    width: 20%;
+}
+
+.star-rating[data-rate="3.5"]::before {
+    content: "★★★★★";
+    color: #0fbe9f;
+    width: 70%;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+}
+
+.star-rating[data-rate="3.5"]::after {
+    content: "★★★★★";
+    color: #b2b2b2;
+    width: 25%;
+}
+
+.star-rating[data-rate="3"]::before {
+    content: "★★★★★";
+    color: #0fbe9f;
+    width: 60%;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+}
+
+.star-rating[data-rate="3"]::after {
+    content: "★★★★★";
+    color: #b2b2b2;
+}
+
+.star-rating[data-rate="2.5"]::before {
+    content: "★★★★★";
+    color: #0fbe9f;
+    width: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+}
+
+.star-rating[data-rate="2.5"]::after {
+    content: "★★★★★";
+    color: #b2b2b2;
+}
+
+.star-rating[data-rate="2"]::before {
+    content: "★★★★★";
+    color: #0fbe9f;
+    width: 40%;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+}
+
+.star-rating[data-rate="2"]::after {
+    content: "★★★★★";
+    color: #b2b2b2;
+}
+
+.star-rating[data-rate="1.5"]::before {
+    content: "★★★★★";
+    color: #0fbe9f;
+    width: 30%;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+}
+
+.star-rating[data-rate="1.5"]::after {
+    content: "★★★★★";
+    color: #b2b2b2;
+}
+
+.star-rating[data-rate="1"]::before {
+    content: "★★★★★";
+    color: #0fbe9f;
+    width: 20%;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+}
+
+.star-rating[data-rate="1"]::after {
+    content: "★★★★★";
+    color: #b2b2b2;
+}
+
+.star-rating[data-rate="0.5"]::before {
+    content: "★★★★★";
+    color: #0fbe9f;
+    width: 10%;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+}
+
+.star-rating[data-rate="0.5"]::after {
+    content: "★★★★★";
+    color: #b2b2b2;
+}
+
+.star-rating[data-rate="0"]::after {
+    content: "★★★★★";
+    color: #b2b2b2;
+}
