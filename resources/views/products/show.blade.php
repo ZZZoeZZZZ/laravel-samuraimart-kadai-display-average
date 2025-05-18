@@ -16,7 +16,10 @@
                     {{ $product->name }}
                 </h1>
                 <!-- ★表示 -->
+
                 <p class="">
+                    <label class="star-rating" data-rate={{ round($product->reviews->avg('score')*2)/2 }}></label>
+                    {{ round($product->reviews->avg('score'),1) }}<br>
                     {{ $product->description }}
                 </p>
                 <hr>
@@ -80,12 +83,16 @@
         <div class="offset-1 col-11">
             <hr class="w-100">
             <h3 class="float-left">カスタマーレビュー</h3>
+            <p>
+                <label class="star-rating" data-rate={{ round($product->reviews->avg('score')*2)/2 }}></label>
+                {{ round($product->reviews->avg('score'),1) }}<br>
+            </p>
         </div>
         <div class="offset-1col-10">
             <div class="row">
                 @foreach ($reviews as $review)
                 <div class="offset-md-5 col-md-5">
-                    <h3 class="offset-md-5 col-md-5">{{ str_repeat('★', $review->score) }}</h3>
+                    <h3 class="review-score-color">{{ str_repeat('★', $review->score) }}</h3>
                     <p class="h3">{{ $review->title }}</p>
                     <p class="h3">{{ $review->content }}</p>
                     <label>{{ $review->created_at }} {{ $review->user->name }}</label>

@@ -57,6 +57,9 @@
                         <p class="samuraimart-product-label mt-2">
                             {{ $recently_product->name }}<br>
                             <!-- ★表示 -->
+                            <label class="star-rating"
+                                data-rate={{ round($recently_product->reviews->avg('score')*2)/2 }}></label>
+                            {{ round($recently_product->reviews->avg('score'),1) }}<br>
                             <label>￥{{ $recently_product->price }}</label>
                         </p>
                     </div>
